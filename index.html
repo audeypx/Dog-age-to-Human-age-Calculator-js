@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog-to-human-age-calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>
+            Dog Age Calculator
+        </h1>
+    </header>
+
+    <div class="intro">
+        <p class="border">
+            If your dog was a human, how old would he be?
+            Ever wonder how old your dog is in human years? so use this program to calculate your dog's "human" age.
+        </p>
+    </div>
+
+    <main>
+        <form id="calForm">
+            Age<br>
+            <input id="agenum" type="text" name="Age" value="" placeholder="Input Age" max="20">
+            <br>
+            <br>
+            Select Size <br>
+            <select id="sizenum">
+                <option value="Small"> Small </option>
+                <option value="Medium">Medium</option>
+                <option value="Large"> Large</option>
+            </select>
+            <br>
+            <button type="button" id="calculate" onclick="dogy()">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+
+        <footer> coded by <a href="http://https://github.com/audeypx">audr3y</a><br> &copy; 2020</footer>
+
+    </main>
+
+
+    <!-- <footer>
+ coded by <a href="http://https://github.com/audeypx"></a><br> &copy; 2020
+    </footer> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
